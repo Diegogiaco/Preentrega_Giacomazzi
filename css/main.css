@@ -1,3 +1,4 @@
+/*HEADER*/
 .logo {
   width: 100px;
   height: 100px;
@@ -32,10 +33,12 @@
   height: 50px;
 }
 
+/*GENERAL*/
 body {
   background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-pared-pintada-blanco_53876-138197.jpg?size=626&ext=jpg&ga=GA1.1.187570847.1675342931);
 }
 
+/*FOOTER*/
 footer {
   bottom: 0px;
   left: 0px;
@@ -43,6 +46,7 @@ footer {
   font-size: 20px;
 }
 
+/*INDEX*/
 .intro {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -52,6 +56,7 @@ footer {
   justify-content: space-around;
 }
 
+/*SERVICIO*/
 .work {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -61,11 +66,13 @@ footer {
   font-size: 20px;
 }
 
+/*PERSONAL*/
 .personal {
   justify-items: center;
   display: grid;
 }
 
+/*TURNERO*/
 .form-1 {
   justify-content: space-around;
 }
@@ -75,6 +82,7 @@ footer {
   height: 50%;
 }
 
+/*CONSULTA*/
 .form-3 {
   margin: 50px;
   width: 400px;
