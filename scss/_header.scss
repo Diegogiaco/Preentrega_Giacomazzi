@@ -1,0 +1,30 @@
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    background-color: grey;
+    height: 100%;
+    align-items: center;
+ }
+ .boton {
+     border: 2px;
+     border-style: double;
+     font-weight: bold;
+     font-size: 25px;
+     padding-left: 30px;
+     padding-right: 30px;
+     justify-content: center;
+     width: auto;
+     height: 50px;
+ }
+ .menu {
+     background-color: brown;
+     height: 100%;
+     list-style: none;
+     justify-content: space-around;
+     padding: 0px;
+     height: 50px;
+ }

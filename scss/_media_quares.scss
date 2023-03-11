@@ -1,0 +1,83 @@
+/*laptop*/
+@media (max-width: 1024px) {
+    /*GENERAL*/
+    .titulo {
+            font-size: 55px;
+            }
+    .images-1{
+            flex-direction: column;
+            gap: 20px;
+            width: 60%;
+            height: 60%;
+    }
+    /*TURNERO*/
+    .form-1{
+        align-items: center;
+    }
+    .form-2{
+        margin: 25px;
+    }
+}
+/*Tablet*/
+@media (max-width: 768px) {
+    /*GENERAL*/
+    .titulo {
+        font-size: 40px;
+    }
+    .images-1{
+        width: 60%;
+        height: 60%;
+    }
+    .boton {
+        font-size: 20px;
+        height: 40px;
+    }
+    .menu {
+        height: 40px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    /*PERSONAL*/
+    .personal-pages {
+        flex-wrap: wrap;
+    }
+}
+/*mobile*/
+@media (max-width: 426px) {
+    /*GENERAL*/
+    .titulo{
+        font-size: 22px;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: normal;
+        height: auto;
+    }
+    .boton{
+        font-size: 20px;
+    }
+    /*PERSONAL*/
+    .personal img{
+        width: 60%;
+       
+    }
+    /*TURNERO*/
+    .form-1 {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    .maps-2 {
+        height: 80%;
+        width: 80%;
+    }
+    /*CONSULTA*/
+    .form-3{
+        width: auto;
+    }
+    .text-1{
+        width: auto;
+    }
+}
