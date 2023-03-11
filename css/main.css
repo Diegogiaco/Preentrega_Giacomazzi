@@ -52,7 +52,21 @@ footer {
   margin-bottom: 40px;
 }
 
+h2 {
+  display: flex;
+  justify-items: center;
+}
+
+p {
+  font-size: 22px;
+}
+
+.frase {
+  font-style: italic;
+}
+
 .images-1 {
+  display: flex;
   justify-content: space-around;
 }
 
