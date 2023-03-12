@@ -1,6 +1,7 @@
 /*CONSULTA*/
 .form-3{
   @include marg-width ;
+  flex-direction: column;
 
 }
 .text-1{

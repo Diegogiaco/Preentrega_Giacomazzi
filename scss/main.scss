@@ -1,12 +1,11 @@
 $fuente: 'Times New Roman' ;
-$style-frase: 'italic' ;
+$style-frase: italic ;
 $espaciado: space-around ;
 $style-parrafo: '22px' ;
 @mixin marg-width {
     margin: 50px ;
     width: 400px;
 } ;
-@import "animaciones" ;
 @import "header";
 @import "body";
 @import "footer";
