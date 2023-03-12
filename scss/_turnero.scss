@@ -1,6 +1,9 @@
 /*TURNERO*/
 .form-1{
-    justify-content: space-around;
+    justify-content: $espaciado;
+}
+.form-2 {
+    @include marg-width;
 }
 .maps-2{
     width: 50%;

@@ -8,12 +8,12 @@ h2 {
     justify-items: center;
 }
 p {
-    font-size: 22px;
+    font-size: $style-parrafo;
 }
 .frase {
-    font-style: italic;
+    font-style: $style-frase ;
 }
 .images-1{
     display: flex;
-    justify-content: space-around;
+    justify-content: $espaciado;
 }

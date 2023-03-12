@@ -58,11 +58,11 @@ h2 {
 }
 
 p {
-  font-size: 22px;
+  font-size: "22px";
 }
 
 .frase {
-  font-style: italic;
+  font-style: "italic";
 }
 
 .images-1 {
@@ -85,13 +85,11 @@ p {
   justify-items: center;
   display: grid;
 }
-
-.imagen1 {
+.personal .imagen1 {
   width: 120px;
   height: auto;
 }
-
-.imagen3 {
+.personal .imagen3 {
   width: 200px;
   height: 200px;
 }
@@ -99,6 +97,11 @@ p {
 /*TURNERO*/
 .form-1 {
   justify-content: space-around;
+}
+
+.form-2 {
+  margin: 50px;
+  width: 400px;
 }
 
 .maps-2 {
@@ -110,7 +113,6 @@ p {
 .form-3 {
   margin: 50px;
   width: 400px;
-  flex-direction: column;
 }
 
 .text-1 {
@@ -143,10 +145,6 @@ p {
   /*GENERAL*/
   .titulo {
     font-size: 40px;
-  }
-  .images-1 {
-    width: 60%;
-    height: 60%;
   }
   .boton {
     font-size: 20px;
