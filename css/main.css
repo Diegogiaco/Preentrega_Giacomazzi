@@ -7,7 +7,7 @@
 .titulo {
   font-family: "Times New Roman", Times, serif;
   font-size: 70px;
-  background-color: grey;
+  background-color: rgb(168, 168, 168);
   height: 100%;
   align-items: center;
 }
@@ -25,12 +25,18 @@
 }
 
 .menu {
-  background-color: brown;
+  background-color: rgb(120, 121, 205);
   height: 100%;
   list-style: none;
   justify-content: space-around;
   padding: 0px;
   height: 50px;
+}
+
+.letras {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
 }
 
 /*GENERAL*/
@@ -41,8 +47,7 @@ body {
 /*FOOTER*/
 footer {
   bottom: 0px;
-  left: 0px;
-  background-color: yellowgreen;
+  background-color: rgb(154, 197, 153);
   font-size: 20px;
 }
 
