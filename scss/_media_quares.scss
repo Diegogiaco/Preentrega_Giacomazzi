@@ -1,14 +1,32 @@
+/*laptop L*/
+@media (max-width: 1260px) {
+    /*GENERAL*/
+    .titulo {
+            font-size: 60px;
+            }
+}
+/*laptop L 1/2*/
+@media (max-width: 1100px) {
+    /*GENERAL*/
+    .titulo {
+            font-size: 56px;
+            }
+}
 /*laptop*/
 @media (max-width: 1024px) {
     /*GENERAL*/
     .titulo {
-            font-size: 55px;
+            font-size: 50px;
             }
     .images-1{
             flex-direction: column;
             gap: 20px;
             width: 60%;
             height: 60%;
+    }
+    /*INDEX*/
+    p {
+        display: block;
     }
     /*TURNERO*/
     .form-1{

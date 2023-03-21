@@ -25,7 +25,7 @@
 }
 
 .menu {
-  background-color: rgb(120, 121, 205);
+  background-color: rgb(134, 135, 204);
   height: 100%;
   list-style: none;
   justify-content: space-around;
@@ -47,7 +47,7 @@ body {
 /*FOOTER*/
 footer {
   bottom: 0px;
-  background-color: rgb(154, 197, 153);
+  background-color: rgb(134, 135, 204);
   font-size: 20px;
 }
 
@@ -64,6 +64,10 @@ h2 {
 
 p {
   font-size: "22px";
+}
+
+.images-1 {
+  gap: 20px;
 }
 
 .frase {
@@ -126,17 +130,35 @@ p {
   width: 400px;
 }
 
+/*laptop L*/
+@media (max-width: 1260px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 60px;
+  }
+}
+/*laptop L 1/2*/
+@media (max-width: 1100px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 56px;
+  }
+}
 /*laptop*/
 @media (max-width: 1024px) {
   /*GENERAL*/
   .titulo {
-    font-size: 55px;
+    font-size: 50px;
   }
   .images-1 {
     flex-direction: column;
     gap: 20px;
     width: 60%;
     height: 60%;
+  }
+  /*INDEX*/
+  p {
+    display: block;
   }
   /*TURNERO*/
   .form-1 {

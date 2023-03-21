@@ -6,7 +6,7 @@
 .titulo {
     font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
-    background-color: rgb(168, 168, 168);
+    background-color: $color-titulo;
     height: 100%;
     align-items: center;
  }
@@ -22,7 +22,7 @@
      height: 50px;
  }
  .menu {
-     background-color: rgb(120, 121, 205);
+     background-color: $color-general;
      height: 100%;
      list-style: none;
      justify-content: $espaciado;

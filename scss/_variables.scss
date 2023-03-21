@@ -1,0 +1,10 @@
+$fuente: 'Times New Roman' ;
+$color-general: rgb(134, 135, 204);
+$color-titulo: rgb(168, 168, 168);
+$style-frase: italic ;
+$espaciado: space-around ;
+$style-parrafo: '22px' ;
+@mixin marg-width {
+    margin: 50px ;
+    width: 400px;
+} ;
